@@ -18,6 +18,9 @@
   {% endfor %}
 </p>
 <p>
+  <p class="description">
+    {{description}}
+  </p>
   <a class="btn btn-primary" href="{{url_for('pets.edit', pid=id)}}">Edit</a>
 </p>
 
